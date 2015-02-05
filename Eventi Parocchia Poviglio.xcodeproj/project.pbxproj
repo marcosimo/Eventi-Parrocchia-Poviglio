@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A998A0E41A83ECE200036E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A998A0E31A83ECE200036E61 /* main.m */; };
+		A998A0E71A83ECE200036E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A998A0E61A83ECE200036E61 /* AppDelegate.m */; };
+		A998A0EA1A83ECE200036E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A998A0E91A83ECE200036E61 /* ViewController.m */; };
+		A998A0ED1A83ECE200036E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A998A0EB1A83ECE200036E61 /* Main.storyboard */; };
+		A998A0EF1A83ECE200036E61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A998A0EE1A83ECE200036E61 /* Images.xcassets */; };
+		A998A0F21A83ECE200036E61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A998A0F01A83ECE200036E61 /* LaunchScreen.xib */; };
+		A998A0FE1A83ECE200036E61 /* Eventi_Parocchia_PoviglioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A998A0FD1A83ECE200036E61 /* Eventi_Parocchia_PoviglioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A998A0F81A83ECE200036E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A998A0D61A83ECE200036E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A998A0DD1A83ECE200036E61;
+			remoteInfo = "Eventi Parocchia Poviglio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A998A0DE1A83ECE200036E61 /* Eventi Parocchia Poviglio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eventi Parocchia Poviglio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A998A0E21A83ECE200036E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A998A0E31A83ECE200036E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A998A0E51A83ECE200036E61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A998A0E61A83ECE200036E61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A998A0E81A83ECE200036E61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A998A0E91A83ECE200036E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A998A0EC1A83ECE200036E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A998A0EE1A83ECE200036E61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A998A0F11A83ECE200036E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A998A0F71A83ECE200036E61 /* Eventi Parocchia PoviglioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eventi Parocchia PoviglioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A998A0FC1A83ECE200036E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A998A0FD1A83ECE200036E61 /* Eventi_Parocchia_PoviglioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eventi_Parocchia_PoviglioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A998A0DB1A83ECE200036E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A998A0F41A83ECE200036E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A998A0D51A83ECE100036E61 = {
+			isa = PBXGroup;
+			children = (
+				A998A0E01A83ECE200036E61 /* Eventi Parocchia Poviglio */,
+				A998A0FA1A83ECE200036E61 /* Eventi Parocchia PoviglioTests */,
+				A998A0DF1A83ECE200036E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A998A0DF1A83ECE200036E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A998A0DE1A83ECE200036E61 /* Eventi Parocchia Poviglio.app */,
+				A998A0F71A83ECE200036E61 /* Eventi Parocchia PoviglioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A998A0E01A83ECE200036E61 /* Eventi Parocchia Poviglio */ = {
+			isa = PBXGroup;
+			children = (
+				A998A0E51A83ECE200036E61 /* AppDelegate.h */,
+				A998A0E61A83ECE200036E61 /* AppDelegate.m */,
+				A998A0E81A83ECE200036E61 /* ViewController.h */,
+				A998A0E91A83ECE200036E61 /* ViewController.m */,
+				A998A0EB1A83ECE200036E61 /* Main.storyboard */,
+				A998A0EE1A83ECE200036E61 /* Images.xcassets */,
+				A998A0F01A83ECE200036E61 /* LaunchScreen.xib */,
+				A998A0E11A83ECE200036E61 /* Supporting Files */,
+			);
+			path = "Eventi Parocchia Poviglio";
+			sourceTree = "<group>";
+		};
+		A998A0E11A83ECE200036E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A998A0E21A83ECE200036E61 /* Info.plist */,
+				A998A0E31A83ECE200036E61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A998A0FA1A83ECE200036E61 /* Eventi Parocchia PoviglioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A998A0FD1A83ECE200036E61 /* Eventi_Parocchia_PoviglioTests.m */,
+				A998A0FB1A83ECE200036E61 /* Supporting Files */,
+			);
+			path = "Eventi Parocchia PoviglioTests";
+			sourceTree = "<group>";
+		};
+		A998A0FB1A83ECE200036E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A998A0FC1A83ECE200036E61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A998A0DD1A83ECE200036E61 /* Eventi Parocchia Poviglio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A998A1011A83ECE200036E61 /* Build configuration list for PBXNativeTarget "Eventi Parocchia Poviglio" */;
+			buildPhases = (
+				A998A0DA1A83ECE200036E61 /* Sources */,
+				A998A0DB1A83ECE200036E61 /* Frameworks */,
+				A998A0DC1A83ECE200036E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eventi Parocchia Poviglio";
+			productName = "Eventi Parocchia Poviglio";
+			productReference = A998A0DE1A83ECE200036E61 /* Eventi Parocchia Poviglio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A998A0F61A83ECE200036E61 /* Eventi Parocchia PoviglioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A998A1041A83ECE200036E61 /* Build configuration list for PBXNativeTarget "Eventi Parocchia PoviglioTests" */;
+			buildPhases = (
+				A998A0F31A83ECE200036E61 /* Sources */,
+				A998A0F41A83ECE200036E61 /* Frameworks */,
+				A998A0F51A83ECE200036E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A998A0F91A83ECE200036E61 /* PBXTargetDependency */,
+			);
+			name = "Eventi Parocchia PoviglioTests";
+			productName = "Eventi Parocchia PoviglioTests";
+			productReference = A998A0F71A83ECE200036E61 /* Eventi Parocchia PoviglioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A998A0D61A83ECE200036E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = vitaparrpov;
+				TargetAttributes = {
+					A998A0DD1A83ECE200036E61 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A998A0F61A83ECE200036E61 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A998A0DD1A83ECE200036E61;
+					};
+				};
+			};
+			buildConfigurationList = A998A0D91A83ECE200036E61 /* Build configuration list for PBXProject "Eventi Parocchia Poviglio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A998A0D51A83ECE100036E61;
+			productRefGroup = A998A0DF1A83ECE200036E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A998A0DD1A83ECE200036E61 /* Eventi Parocchia Poviglio */,
+				A998A0F61A83ECE200036E61 /* Eventi Parocchia PoviglioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A998A0DC1A83ECE200036E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A998A0ED1A83ECE200036E61 /* Main.storyboard in Resources */,
+				A998A0F21A83ECE200036E61 /* LaunchScreen.xib in Resources */,
+				A998A0EF1A83ECE200036E61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A998A0F51A83ECE200036E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A998A0DA1A83ECE200036E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A998A0EA1A83ECE200036E61 /* ViewController.m in Sources */,
+				A998A0E71A83ECE200036E61 /* AppDelegate.m in Sources */,
+				A998A0E41A83ECE200036E61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A998A0F31A83ECE200036E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A998A0FE1A83ECE200036E61 /* Eventi_Parocchia_PoviglioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A998A0F91A83ECE200036E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A998A0DD1A83ECE200036E61 /* Eventi Parocchia Poviglio */;
+			targetProxy = A998A0F81A83ECE200036E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A998A0EB1A83ECE200036E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A998A0EC1A83ECE200036E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A998A0F01A83ECE200036E61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A998A0F11A83ECE200036E61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A998A0FF1A83ECE200036E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A998A1001A83ECE200036E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A998A1021A83ECE200036E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eventi Parocchia Poviglio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A998A1031A83ECE200036E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Eventi Parocchia Poviglio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A998A1051A83ECE200036E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eventi Parocchia PoviglioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eventi Parocchia Poviglio.app/Eventi Parocchia Poviglio";
+			};
+			name = Debug;
+		};
+		A998A1061A83ECE200036E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eventi Parocchia PoviglioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eventi Parocchia Poviglio.app/Eventi Parocchia Poviglio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A998A0D91A83ECE200036E61 /* Build configuration list for PBXProject "Eventi Parocchia Poviglio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A998A0FF1A83ECE200036E61 /* Debug */,
+				A998A1001A83ECE200036E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A998A1011A83ECE200036E61 /* Build configuration list for PBXNativeTarget "Eventi Parocchia Poviglio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A998A1021A83ECE200036E61 /* Debug */,
+				A998A1031A83ECE200036E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A998A1041A83ECE200036E61 /* Build configuration list for PBXNativeTarget "Eventi Parocchia PoviglioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A998A1051A83ECE200036E61 /* Debug */,
+				A998A1061A83ECE200036E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A998A0D61A83ECE200036E61 /* Project object */;
+}
